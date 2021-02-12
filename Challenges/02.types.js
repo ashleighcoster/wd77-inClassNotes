@@ -40,3 +40,5 @@ if(value === 'string') {
 } else if (value === "number") {
     console.log('number');
 } else if (value )
+
+let value = typeof myObject.name;
