@@ -42,3 +42,4 @@ if(value === 'string') {
 } else if (value )
 
 let value = typeof myObject.name;
+let value = typeof 
