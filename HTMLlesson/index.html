@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Holds metadata
+        Information we don't see
+        Links, viewport info, document title, etc. 
+        Import resources, link CSS files
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Music Blog</title>
+    <!-- <style>
+        body {
+            background-color: aqua;
+        }
+    </style> -->
+</head>
+<body>
+    
+    <header>
+        <!-- header can be used for introductory content or a set of navigational links -->
+        
+        <h1>Music Blog</h1>
+
+        <nav>
+            <ul>
+                <!-- emmet = li*4 -->
+                <li><span>Home</span></li>
+                <li><a href="#">Get Started</a></li>
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">Forum</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <!-- parent tag = section, 2 children = h2 and main -->
+        <!-- The <section> tag defines a section in a doc and has a default value of a block display. -->
+        <h2>Welcome</h2>
+        <main>
+            <!-- main content of document - there can only be one main
+                - cannot be a descendent (child) of:
+                    -header
+                    -nav
+                    -article
+                    -aside
+                    -footer
+            -->
+            <article>
+                <!-- The <article> tag specifies independent, self-contained content. -->
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias dolor soluta itaque harum. Commodi asperiores totam odio, nam nesciunt eos laudantium maxime incidunt voluptate nemo, quod nisi dolorem odit maiores! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo commodi odit nisi aperiam deserunt ipsum delectus reiciendis assumenda. Alias quos culpa beatae, quam ratione nam temporibus impedit ab soluta quidem.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias dolor soluta itaque harum. Commodi asperiores totam odio, nam nesciunt eos laudantium maxime incidunt voluptate nemo, quod nisi dolorem odit maiores! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo commodi odit nisi aperiam deserunt ipsum delectus reiciendis assumenda. Alias quos culpa beatae, quam ratione nam temporibus impedit ab soluta quidem.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias dolor soluta itaque harum. Commodi asperiores totam odio, nam nesciunt eos laudantium maxime incidunt voluptate nemo, quod nisi dolorem odit maiores! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo commodi odit nisi aperiam deserunt ipsum delectus reiciendis assumenda. Alias quos culpa beatae, quam ratione nam temporibus impedit ab soluta quidem.</p>
+                <!-- shift + alt + [down arrow] will copy the section you want and paste below quickly  -->
+            </article>
+
+            <aside>
+                <!-- The <aside> tag defines some content aside from the content it is placed in or indirectly related to the surrounding content. -->
+                <h2>Favorite Albums</h2>
+                 <!--a:blank*3>img  -->
+                <a href="./assets/PinkFloyd.jpg" target="_blank" rel="noopener noreferrer"><img src="./assets/PinkFloyd.jpg" alt="Division Bell - Pink Floyd"></a>
+                <a href="./assets/BrokenBells_Amoeba.jpg" target="_blank" rel="noopener noreferrer"><img src="./assets/BrokenBells_Amoeba.jpg" alt="BrokenBells_Amoeba"></a>
+                <a href="./assets/inYourHonor.jpg" target="_blank" rel="noopener noreferrer"><img src="./assets/inYourHonor.jpg" alt="inYourHonor"></a>
+                <a href="./assets/TVotR_seeds.jpg" target="_blank" rel="noopener noreferrer"><img src="./assets/TVotR_seeds.jpg" alt="TVotR_seeds"></a>  
+            </aside>
+        </main>       
+
+    </section>
+
+  <footer>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, rerum obcaecati. Autem reiciendis maxime unde beatae culpa eaque dicta sapiente voluptates, quibusdam facere natus similique quam non esse aut qui. &copy;2021</p>
+  </footer>     
+
+</body>
+</html>
